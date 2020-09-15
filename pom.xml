@@ -13,6 +13,7 @@
 		<sonar.projectKey>200810jwa_pipeline-demo</sonar.projectKey>
 		<sonar.organization>200810jwa</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 	</properties>
 
 	<!-- This configuration is necessary in order to have correct context path in our EC2's Tomcat server -->
